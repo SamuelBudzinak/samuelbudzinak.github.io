@@ -1,0 +1,1350 @@
+{
+  "data": [
+    {
+      "connectgaps": false,
+      "customdata": [
+        [
+          1,
+          332,
+          7.999948287189537,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\332_VI_VII 450 nm Ni83 Fe17 on piperion etched, short act after sputtering, RDC 920\\mpt\\VI_Day1_Procedure1_10_MB_C02.mpt"
+        ],
+        [
+          2,
+          332,
+          7.9999482884783175,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\332_VI_VII 450 nm Ni83 Fe17 on piperion etched, short act after sputtering, RDC 920\\mpt\\VI_Day2_Procedure1_10_MB_C02.mpt"
+        ],
+        [
+          3,
+          332,
+          7.9999482893265785,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\332_VI_VII 450 nm Ni83 Fe17 on piperion etched, short act after sputtering, RDC 920\\mpt\\VI_Day3_Procedure1_10_MB_C02.mpt"
+        ],
+        [
+          4,
+          332,
+          7.99994828956061,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\332_VI_VII 450 nm Ni83 Fe17 on piperion etched, short act after sputtering, RDC 920\\mpt\\VI_Day4_Procedure1_10_MB_C02.mpt"
+        ],
+        [
+          5,
+          332,
+          7.99994828915443,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\332_VI_VII 450 nm Ni83 Fe17 on piperion etched, short act after sputtering, RDC 920\\mpt\\VI_Day5_Procedure1_10_MB_C02.mpt"
+        ],
+        [
+          6,
+          332,
+          7.999948290371534,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\332_VI_VII 450 nm Ni83 Fe17 on piperion etched, short act after sputtering, RDC 920\\mpt\\VI_Day6_Procedure1_10_MB_C02.mpt"
+        ],
+        [
+          7,
+          332,
+          7.999948290106032,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\332_VI_VII 450 nm Ni83 Fe17 on piperion etched, short act after sputtering, RDC 920\\mpt\\VI_Day7_Procedure1_10_MB_C02.mpt"
+        ]
+      ],
+      "hovertemplate": "<b>%{fullData.name}</b><br>Deň = %{customdata[0]:.0f}<br><i>j̃</i><sub>1–8</sub> = %{x:.2f} mA cm⁻²<br><i>r̃</i><sub>1–8</sub> = %{y:.3f} % h⁻¹<br>MEA = %{customdata[1]:.0f}<br>Zaznamenané = %{customdata[2]:.2f} h<br>Počet 5 min hodnôt = %{customdata[3]:.0f}<br>Počet <i>r</i> hodnôt = %{customdata[4]:.0f}<br>Súbor = %{customdata[5]}<extra></extra>",
+      "line": {
+        "color": "#ff7f0e",
+        "dash": "solid",
+        "width": 1.2
+      },
+      "marker": {
+        "color": "#ff7f0e",
+        "line": {
+          "color": "#ff7f0e",
+          "width": 1
+        },
+        "size": 5.0,
+        "symbol": "square"
+      },
+      "mode": "lines+markers",
+      "name": "332 Ni-Fe 450 nm leptaná",
+      "x": {
+        "dtype": "f8",
+        "bdata": "JsFizzymTUAIoxYzuAdSQCjQkIN0hlRA0O0kZNAUWEAsReidc5FZQDEwz6X0g1dAI73yrOLgVkA="
+      },
+      "y": {
+        "dtype": "f8",
+        "bdata": "rK4MNDuCEcAhs2ahMYUZwFIhAujOBR7AtifCkyVvJsAUeIAD4YglwJSPh/2mfSPA5DUcIhfXI8A="
+      },
+      "type": "scatter"
+    },
+    {
+      "connectgaps": false,
+      "customdata": [
+        [
+          3,
+          371,
+          7.999948263773729,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\371_V_V ehydro ANO I, plain piperion, GDE\\mpt\\V_Day3_Procedure1_10_MB_C02.mpt"
+        ],
+        [
+          5,
+          371,
+          7.999998578702542,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\371_V_V ehydro ANO I, plain piperion, GDE\\mpt\\V_Day5_Procedure1_10_MB_C02.mpt"
+        ]
+      ],
+      "hovertemplate": "<b>%{fullData.name}</b><br>Deň = %{customdata[0]:.0f}<br><i>j̃</i><sub>1–8</sub> = %{x:.2f} mA cm⁻²<br><i>r̃</i><sub>1–8</sub> = %{y:.3f} % h⁻¹<br>MEA = %{customdata[1]:.0f}<br>Zaznamenané = %{customdata[2]:.2f} h<br>Počet 5 min hodnôt = %{customdata[3]:.0f}<br>Počet <i>r</i> hodnôt = %{customdata[4]:.0f}<br>Súbor = %{customdata[5]}<extra></extra>",
+      "line": {
+        "color": "#1f77b4",
+        "dash": "solid",
+        "width": 1.2
+      },
+      "marker": {
+        "color": "#1f77b4",
+        "line": {
+          "color": "#1f77b4",
+          "width": 1
+        },
+        "size": 5.0,
+        "symbol": "circle"
+      },
+      "mode": "lines+markers",
+      "name": "371 EHYDRO ANO I",
+      "x": {
+        "dtype": "f8",
+        "bdata": "xv/7ES2khEAqQAh+oYiQQA=="
+      },
+      "y": {
+        "dtype": "f8",
+        "bdata": "TK7O1H+35L8cUNPtamTDvw=="
+      },
+      "type": "scatter"
+    },
+    {
+      "connectgaps": false,
+      "customdata": [
+        [
+          1,
+          407,
+          7.999948252440404,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\407_V_V Ni in He sputtering, 1h, short act, RDC 1025\\mpt\\V_Day1_Procedure1_10_MB_C02.mpt"
+        ],
+        [
+          2,
+          407,
+          7.999948253336434,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\407_V_V Ni in He sputtering, 1h, short act, RDC 1025\\mpt\\V_Day2_Procedure1_10_MB_C02.mpt"
+        ],
+        [
+          3,
+          407,
+          7.999948251500654,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\407_V_V Ni in He sputtering, 1h, short act, RDC 1025\\mpt\\V_Day3_Procedure1_10_MB_C02.mpt"
+        ],
+        [
+          4,
+          407,
+          7.990292365667271,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\407_V_V Ni in He sputtering, 1h, short act, RDC 1025\\mpt\\V_Day4_Procedure1_10_MB_C02.mpt"
+        ],
+        [
+          5,
+          407,
+          7.999948252461109,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\407_V_V Ni in He sputtering, 1h, short act, RDC 1025\\mpt\\V_Day5_Procedure1_10_MB_C01.mpt"
+        ],
+        [
+          6,
+          407,
+          7.999998365821796,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\407_V_V Ni in He sputtering, 1h, short act, RDC 1025\\mpt\\V_Day6_Procedure1_10_MB_C01.mpt"
+        ],
+        [
+          7,
+          407,
+          7.999998404224009,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\407_V_V Ni in He sputtering, 1h, short act, RDC 1025\\mpt\\V_Day7_Procedure1_10_MB_C01.mpt"
+        ],
+        [
+          8,
+          407,
+          7.999998309939927,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\407_V_V Ni in He sputtering, 1h, short act, RDC 1025\\mpt\\V_Day8_Procedure1_10_MB_C01.mpt"
+        ],
+        [
+          9,
+          407,
+          7.999998257934429,
+          96.0,
+          78.0,
+          "C:\\Users\\samue\\Desktop\\Bakalárka\\data\\407_V_V Ni in He sputtering, 1h, short act, RDC 1025\\mpt\\V_Day9_Procedure1_10_MB_C01.mpt"
+        ]
+      ],
+      "hovertemplate": "<b>%{fullData.name}</b><br>Deň = %{customdata[0]:.0f}<br><i>j̃</i><sub>1–8</sub> = %{x:.2f} mA cm⁻²<br><i>r̃</i><sub>1–8</sub> = %{y:.3f} % h⁻¹<br>MEA = %{customdata[1]:.0f}<br>Zaznamenané = %{customdata[2]:.2f} h<br>Počet 5 min hodnôt = %{customdata[3]:.0f}<br>Počet <i>r</i> hodnôt = %{customdata[4]:.0f}<br>Súbor = %{customdata[5]}<extra></extra>",
+      "line": {
+        "color": "#2ca02c",
+        "dash": "solid",
+        "width": 1.2
+      },
+      "marker": {
+        "color": "#2ca02c",
+        "line": {
+          "color": "#2ca02c",
+          "width": 1
+        },
+        "size": 5.0,
+        "symbol": "triangle-up"
+      },
+      "mode": "lines+markers",
+      "name": "407 Ni 100 nm He neleptaná",
+      "x": {
+        "dtype": "f8",
+        "bdata": "KERJSFA8VUBUkwjzbjtUQOyxWA+6klNApGdQ/WEFUkBiYuMpgHdRQK7I1bXjOWNAzNAYZKzdX0Ca7kztvHZdQI4mf3GVkF1A"
+      },
+      "y": {
+        "dtype": "f8",
+        "bdata": "m/FbfA4HGsAmCU+ZZmkcwKZFAC6F2xjAgavpF157EcCud63xpX0WwHHMWRuwoQ7AtCnEkoo8C8CVtto6l64KwNTktoXLuwrA"
+      },
+      "type": "scatter"
+    }
+  ],
+  "layout": {
+    "template": {
+      "data": {
+        "barpolar": [
+          {
+            "marker": {
+              "line": {
+                "color": "white",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "barpolar"
+          }
+        ],
+        "bar": [
+          {
+            "error_x": {
+              "color": "#2a3f5f"
+            },
+            "error_y": {
+              "color": "#2a3f5f"
+            },
+            "marker": {
+              "line": {
+                "color": "white",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "bar"
+          }
+        ],
+        "carpet": [
+          {
+            "aaxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "#C8D4E3",
+              "linecolor": "#C8D4E3",
+              "minorgridcolor": "#C8D4E3",
+              "startlinecolor": "#2a3f5f"
+            },
+            "baxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "#C8D4E3",
+              "linecolor": "#C8D4E3",
+              "minorgridcolor": "#C8D4E3",
+              "startlinecolor": "#2a3f5f"
+            },
+            "type": "carpet"
+          }
+        ],
+        "choropleth": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "type": "choropleth"
+          }
+        ],
+        "contourcarpet": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "type": "contourcarpet"
+          }
+        ],
+        "contour": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ],
+            "type": "contour"
+          }
+        ],
+        "heatmap": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ],
+            "type": "heatmap"
+          }
+        ],
+        "histogram2dcontour": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ],
+            "type": "histogram2dcontour"
+          }
+        ],
+        "histogram2d": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ],
+            "type": "histogram2d"
+          }
+        ],
+        "histogram": [
+          {
+            "marker": {
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "histogram"
+          }
+        ],
+        "mesh3d": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "type": "mesh3d"
+          }
+        ],
+        "parcoords": [
+          {
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "parcoords"
+          }
+        ],
+        "pie": [
+          {
+            "automargin": true,
+            "type": "pie"
+          }
+        ],
+        "scatter3d": [
+          {
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scatter3d"
+          }
+        ],
+        "scattercarpet": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scattercarpet"
+          }
+        ],
+        "scattergeo": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scattergeo"
+          }
+        ],
+        "scattergl": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scattergl"
+          }
+        ],
+        "scattermapbox": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scattermapbox"
+          }
+        ],
+        "scattermap": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scattermap"
+          }
+        ],
+        "scatterpolargl": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scatterpolargl"
+          }
+        ],
+        "scatterpolar": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scatterpolar"
+          }
+        ],
+        "scatter": [
+          {
+            "fillpattern": {
+              "fillmode": "overlay",
+              "size": 10,
+              "solidity": 0.2
+            },
+            "type": "scatter"
+          }
+        ],
+        "scatterternary": [
+          {
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "type": "scatterternary"
+          }
+        ],
+        "surface": [
+          {
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ],
+            "type": "surface"
+          }
+        ],
+        "table": [
+          {
+            "cells": {
+              "fill": {
+                "color": "#EBF0F8"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "header": {
+              "fill": {
+                "color": "#C8D4E3"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "type": "table"
+          }
+        ]
+      },
+      "layout": {
+        "annotationdefaults": {
+          "arrowcolor": "#2a3f5f",
+          "arrowhead": 0,
+          "arrowwidth": 1
+        },
+        "autotypenumbers": "strict",
+        "coloraxis": {
+          "colorbar": {
+            "outlinewidth": 0,
+            "ticks": ""
+          }
+        },
+        "colorscale": {
+          "diverging": [
+            [
+              0,
+              "#8e0152"
+            ],
+            [
+              0.1,
+              "#c51b7d"
+            ],
+            [
+              0.2,
+              "#de77ae"
+            ],
+            [
+              0.3,
+              "#f1b6da"
+            ],
+            [
+              0.4,
+              "#fde0ef"
+            ],
+            [
+              0.5,
+              "#f7f7f7"
+            ],
+            [
+              0.6,
+              "#e6f5d0"
+            ],
+            [
+              0.7,
+              "#b8e186"
+            ],
+            [
+              0.8,
+              "#7fbc41"
+            ],
+            [
+              0.9,
+              "#4d9221"
+            ],
+            [
+              1,
+              "#276419"
+            ]
+          ],
+          "sequential": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ],
+          "sequentialminus": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ]
+        },
+        "colorway": [
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52"
+        ],
+        "font": {
+          "color": "#2a3f5f"
+        },
+        "geo": {
+          "bgcolor": "white",
+          "lakecolor": "white",
+          "landcolor": "white",
+          "showlakes": true,
+          "showland": true,
+          "subunitcolor": "#C8D4E3"
+        },
+        "hoverlabel": {
+          "align": "left"
+        },
+        "hovermode": "closest",
+        "mapbox": {
+          "style": "light"
+        },
+        "paper_bgcolor": "white",
+        "plot_bgcolor": "white",
+        "polar": {
+          "angularaxis": {
+            "gridcolor": "#EBF0F8",
+            "linecolor": "#EBF0F8",
+            "ticks": ""
+          },
+          "bgcolor": "white",
+          "radialaxis": {
+            "gridcolor": "#EBF0F8",
+            "linecolor": "#EBF0F8",
+            "ticks": ""
+          }
+        },
+        "scene": {
+          "xaxis": {
+            "backgroundcolor": "white",
+            "gridcolor": "#DFE8F3",
+            "gridwidth": 2,
+            "linecolor": "#EBF0F8",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "#EBF0F8"
+          },
+          "yaxis": {
+            "backgroundcolor": "white",
+            "gridcolor": "#DFE8F3",
+            "gridwidth": 2,
+            "linecolor": "#EBF0F8",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "#EBF0F8"
+          },
+          "zaxis": {
+            "backgroundcolor": "white",
+            "gridcolor": "#DFE8F3",
+            "gridwidth": 2,
+            "linecolor": "#EBF0F8",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "#EBF0F8"
+          }
+        },
+        "shapedefaults": {
+          "line": {
+            "color": "#2a3f5f"
+          }
+        },
+        "ternary": {
+          "aaxis": {
+            "gridcolor": "#DFE8F3",
+            "linecolor": "#A2B1C6",
+            "ticks": ""
+          },
+          "baxis": {
+            "gridcolor": "#DFE8F3",
+            "linecolor": "#A2B1C6",
+            "ticks": ""
+          },
+          "bgcolor": "white",
+          "caxis": {
+            "gridcolor": "#DFE8F3",
+            "linecolor": "#A2B1C6",
+            "ticks": ""
+          }
+        },
+        "title": {
+          "x": 0.05
+        },
+        "xaxis": {
+          "automargin": true,
+          "gridcolor": "#EBF0F8",
+          "linecolor": "#EBF0F8",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "#EBF0F8",
+          "zerolinewidth": 2
+        },
+        "yaxis": {
+          "automargin": true,
+          "gridcolor": "#EBF0F8",
+          "linecolor": "#EBF0F8",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "#EBF0F8",
+          "zerolinewidth": 2
+        }
+      }
+    },
+    "font": {
+      "family": "Computer Modern, CMU Serif, STIX Two Text, Times New Roman, serif",
+      "size": 17
+    },
+    "xaxis": {
+      "title": {
+        "text": "<i>j̃</i><sub>1–8</sub> (mA cm<sup>−2</sup>)"
+      },
+      "showline": true,
+      "linecolor": "black",
+      "linewidth": 1,
+      "ticks": "inside",
+      "tickcolor": "black",
+      "showgrid": true,
+      "gridcolor": "rgba(0, 0, 0, 0.25)",
+      "zeroline": false,
+      "automargin": true,
+      "range": [
+        -20.60998734782767,
+        1138.0664254621238
+      ]
+    },
+    "yaxis": {
+      "title": {
+        "text": "<i>r̃</i><sub>1–8</sub> (% h<sup>−1</sup>)"
+      },
+      "showline": true,
+      "linecolor": "black",
+      "linewidth": 1,
+      "ticks": "inside",
+      "tickcolor": "black",
+      "showgrid": true,
+      "gridcolor": "rgba(0, 0, 0, 0.25)",
+      "zeroline": false,
+      "automargin": true,
+      "range": [
+        -12.323641722281517,
+        0.9550561513965451
+      ]
+    },
+    "legend": {
+      "font": {
+        "size": 8
+      },
+      "x": 0.01,
+      "y": 0.01,
+      "xanchor": "left",
+      "yanchor": "bottom",
+      "bgcolor": "rgba(255, 255, 255, 0.85)",
+      "bordercolor": "rgba(0, 0, 0, 0.20)",
+      "borderwidth": 1
+    },
+    "margin": {
+      "l": 90,
+      "r": 25,
+      "t": 25,
+      "b": 75
+    },
+    "autosize": true,
+    "annotations": [
+      {
+        "font": {
+          "color": "#ff7f0e",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "1",
+        "x": 59.29873077699658,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -4.377178967737262,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#ff7f0e",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "2",
+        "x": 72.12061764917974,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -6.3800721377308784,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#ff7f0e",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "3",
+        "x": 82.10086144582658,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -7.505672097330107,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#ff7f0e",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "4",
+        "x": 96.32521918875068,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -11.217083566141678,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#ff7f0e",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "5",
+        "x": 102.27268169100415,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -10.767341718132265,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#ff7f0e",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "6",
+        "x": 94.06180711014964,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -9.745414660261112,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#ff7f0e",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "7",
+        "x": 91.51383517937624,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -9.920098367637316,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#1f77b4",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "3",
+        "x": 660.5220069587165,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -0.6473998218911645,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#1f77b4",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "5",
+        "x": 1058.1577073372996,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -0.15150200474329345,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#2ca02c",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "1",
+        "x": 84.9424000468722,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -6.506891196357539,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#2ca02c",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "2",
+        "x": 80.92864681088878,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -7.102930446099242,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#2ca02c",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "3",
+        "x": 78.29260619794485,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -6.214375227705579,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#2ca02c",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "4",
+        "x": 72.08410580493961,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -4.370476125371057,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#2ca02c",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "5",
+        "x": 69.86719748692988,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -5.622703338825813,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#2ca02c",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "6",
+        "x": 153.8090466666667,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -3.8289491783885343,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#2ca02c",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "7",
+        "x": 127.46364691184425,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -3.404561182605187,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#2ca02c",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "8",
+        "x": 117.85528118622679,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -3.3352493856426215,
+        "yanchor": "bottom",
+        "yshift": 5
+      },
+      {
+        "font": {
+          "color": "#2ca02c",
+          "size": 8
+        },
+        "showarrow": false,
+        "text": "9",
+        "x": 118.25912129799892,
+        "xanchor": "left",
+        "xshift": 5,
+        "y": -3.341696781772592,
+        "yanchor": "bottom",
+        "yshift": 5
+      }
+    ],
+    "hovermode": "closest",
+    "paper_bgcolor": "white",
+    "plot_bgcolor": "white",
+    "uirevision": "stability-map-2d"
+  },
+  "config": {
+    "responsive": true,
+    "displaylogo": false,
+    "scrollZoom": true,
+    "toImageButtonOptions": {
+      "format": "png",
+      "filename": "stability_map",
+      "scale": 2
+    },
+    "modeBarButtonsToRemove": [
+      "select2d",
+      "lasso2d"
+    ]
+  }
+}
