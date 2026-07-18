@@ -1,131 +1,162 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="sk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samuel Budziňák</title>
-    <style>
-
-:root {
-    --bg: #f7f7f5;
-    --text: #1f1f1f;
-    --muted: #666666;
-    --card: #ffffff;
-    --border: #dddddd;
-    --accent: #1f77b4;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: Georgia, "Times New Roman", serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.55;
-}
-
-main {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 56px 24px;
-}
-
-h1 {
-    margin-top: 0;
-    font-size: 2.2rem;
-    line-height: 1.15;
-}
-
-h2 {
-    margin-top: 2rem;
-}
-
-p {
-    color: var(--muted);
-    font-size: 1.05rem;
-}
-
-a {
-    color: var(--accent);
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 22px;
-    margin-top: 22px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-}
-
-.button {
-    display: inline-block;
-    margin-top: 12px;
-    padding: 10px 16px;
-    border-radius: 10px;
-    background: var(--accent);
-    color: white;
-    font-weight: bold;
-}
-
-.button:hover {
-    text-decoration: none;
-    filter: brightness(0.95);
-}
-
-.small {
-    font-size: 0.92rem;
-    color: var(--muted);
-}
-
-.plot-page {
-    max-width: none;
-    padding: 24px;
-}
-
-.plot-wrapper {
-    width: 100%;
-    height: calc(100vh - 150px);
-    min-height: 620px;
-    background: white;
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 8px;
-}
-
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Doplňujúce grafy bakalárskej práce">
+  <title>Doplňujúce grafy bakalárskej práce</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main>
-        <h1>Samuel Budziňák</h1>
+  <header class="topbar">
+    <button class="icon-button sidebar-toggle" id="sidebarToggle" aria-label="Otvoriť navigáciu" aria-expanded="false">☰</button>
 
-        <p>
-            Personal GitHub Pages website.
-        </p>
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">⌁</div>
+      <div>
+        <h1 id="siteTitle">Doplňujúce grafy</h1>
+        <p id="siteSubtitle">Bakalárska práca</p>
+      </div>
+    </div>
 
-        <div class="card">
-            <h2>Bachelor thesis</h2>
-            <p>
-                Interactive figures and supplementary visualisations connected
-                to my bachelor thesis.
-            </p>
+    <label class="search">
+      <span aria-hidden="true">⌕</span>
+      <input id="searchInput" type="search" placeholder="Hľadať graf alebo kapitolu…" autocomplete="off">
+    </label>
+  </header>
 
-            <a class="button" href="bachelor_thesis/">
-                Open bachelor thesis page
-            </a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-heading">Navigácia</div>
+      <nav id="tree" aria-label="Hierarchia kapitol"></nav>
+    </aside>
+
+    <main class="content">
+      <nav class="breadcrumbs" id="breadcrumbs" aria-label="Drobečková navigácia"></nav>
+
+      <section id="galleryView">
+        <header class="page-heading">
+          <div>
+            <p class="eyebrow" id="sectionEyebrow">Výsledky</p>
+            <h2 id="sectionTitle">Doplňujúce grafy</h2>
+            <p id="sectionSummary">Vyberte kapitolu alebo graf v ľavom paneli.</p>
+          </div>
+
+          <div class="view-switcher" aria-label="Spôsob zobrazenia">
+            <button class="view-button active" data-view="grid" title="Mriežka" aria-label="Mriežka">▦</button>
+            <button class="view-button" data-view="list" title="Zoznam" aria-label="Zoznam">☷</button>
+          </div>
+        </header>
+
+        <section id="folderSection">
+          <h3 class="content-heading" id="folderHeading">Priečinky</h3>
+          <div class="folder-grid" id="folderGrid"></div>
+        </section>
+
+        <section id="fileSection">
+          <h3 class="content-heading" id="fileHeading">Grafy</h3>
+          <div class="plot-grid" id="plotGrid"></div>
+        </section>
+
+        <section class="empty-state hidden" id="emptyState">
+          <div class="empty-icon">⌕</div>
+          <h3>Nič sa nenašlo</h3>
+          <p>Skúste zadať kratší názov alebo číslo kapitoly.</p>
+        </section>
+      </section>
+
+      <section id="workspaceView" class="workspace hidden">
+        <header class="workspace-heading">
+          <div>
+            <button class="back-button" id="backToFolder">← Späť na grafy v priečinku</button>
+            <p class="eyebrow" id="workspaceFolder"></p>
+            <h2 id="workspaceTitle"></h2>
+            <p id="workspaceSummary"></p>
+          </div>
+
+          <div class="workspace-actions">
+            <button class="action-button" id="interactiveToggle" disabled>
+              <span aria-hidden="true">⌁</span>
+              Prepnúť na interaktívne
+            </button>
+            <button class="action-button primary" id="addComparison">
+              <span aria-hidden="true">＋</span>
+              Pridať graf na porovnanie
+            </button>
+            <button class="action-button" id="unifyAxes" disabled title="Dostupné v interaktívnom režime pri kompatibilných grafoch">
+              <span aria-hidden="true">↔</span>
+              Zjednotiť osi
+            </button>
+            <button class="square-button" id="axisSettings" disabled title="Nastavenie osí je dostupné v interaktívnom režime" aria-label="Manuálne nastavenie osí">🔧</button>
+          </div>
+        </header>
+
+        <div class="workspace-status">
+          <div>
+            <strong id="comparisonCount">1 z 4 grafov</strong>
+            <span id="compatibilityText">Statický náhľad</span>
+          </div>
+          <button class="text-button hidden" id="clearComparisons">Zrušiť porovnanie</button>
         </div>
 
-        <p class="small">
-            Hosted using GitHub Pages.
-        </p>
+        <div class="comparison-grid count-1" id="comparisonGrid"></div>
+      </section>
     </main>
+  </div>
+
+  <div class="backdrop hidden" id="backdrop"></div>
+
+  <dialog class="picker-dialog" id="comparisonDialog">
+    <div class="dialog-header">
+      <div>
+        <p class="eyebrow">Porovnanie grafov</p>
+        <h2>Vyberte ďalší graf</h2>
+        <p>Naraz možno zobraziť najviac štyri grafy.</p>
+      </div>
+      <button class="icon-button" id="closeComparisonDialog" aria-label="Zavrieť">×</button>
+    </div>
+
+    <label class="dialog-search">
+      <span aria-hidden="true">⌕</span>
+      <input id="comparisonSearch" type="search" placeholder="Hľadať podľa názvu grafu alebo priečinka…" autocomplete="off">
+    </label>
+
+    <div class="comparison-list" id="comparisonList"></div>
+  </dialog>
+
+  <dialog class="settings-dialog" id="settingsDialog">
+    <div class="dialog-header compact">
+      <div>
+        <p class="eyebrow">Interaktívny režim</p>
+        <h2>Manuálne nastavenie osí</h2>
+      </div>
+      <button class="icon-button" id="closeSettingsDialog" aria-label="Zavrieť">×</button>
+    </div>
+
+    <form id="axisForm" method="dialog">
+      <label>
+        Použiť na
+        <select id="axisTarget"></select>
+      </label>
+
+      <div class="axis-fields">
+        <label>X minimum<input id="xMin" type="number" step="any" placeholder="automaticky"></label>
+        <label>X maximum<input id="xMax" type="number" step="any" placeholder="automaticky"></label>
+        <label>Y minimum<input id="yMin" type="number" step="any" placeholder="automaticky"></label>
+        <label>Y maximum<input id="yMax" type="number" step="any" placeholder="automaticky"></label>
+      </div>
+
+      <div class="dialog-footer">
+        <button type="button" class="action-button" id="resetAxes">Obnoviť automatické osi</button>
+        <button type="submit" class="action-button primary">Použiť</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div class="toast hidden" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
